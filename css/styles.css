@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+:root {
+  font-family: 'Playfair Display', serif;
+  font-size: 8px;
+  letter-spacing: 0.3px; }
+
+body {
+  max-width: 1200px;
+  min-width: 320px;
+  margin: auto;
+  color: #626262; }
+  body a {
+    text-decoration: none;
+    color: #626262; }
+  body a:hover {
+    text-decoration: underline; }
+
+body p {
+  margin: 1.5rem 0; }
+
+h1, h2, h3, p, div, nav {
+  margin: 0;
+  padding: 0; }
+
+.thinner-margin {
+  margin: 20px; }
+
+.wider-margin {
+  margin: 40px; }
+
+h5 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  text-transform: uppercase;
+  color: #b4ad9e; }
+
+h2 {
+  font-size: 1.8rem;
+  margin: 1.5rem 0; }
+
+@media (min-width: 320px) {
+  .logo {
+    height: 15px; }
+  nav {
+    width: 100%;
+    padding: 0;
+    margin: 0; }
+  ul {
+    display: flex;
+    padding: 0;
+    justify-content: center; }
+    ul li {
+      display: inline;
+      list-style-type: none;
+      margin: auto; }
+      ul li a {
+        text-transform: uppercase;
+        display: block;
+        margin: auto; }
+  .main-picture {
+    display: flex; }
+    .main-picture img {
+      width: 100%; }
+  .cards-section {
+    display: grid;
+    grid-template-columns: 1fr; }
+    .cards-section img {
+      width: 100%; }
+  .sign-up-sect {
+    background-color: #f0f0f0;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .sign-up-sect h3 {
+      padding: 10px 0;
+      font-size: 1.5rem;
+      display: flex;
+      justify-content: center; }
+  .sign-line {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    border-radius: 3px;
+    width: 100%;
+    margin: 15px 0; }
+    .sign-line #email {
+      background-color: #f0f0f0;
+      border: none;
+      outline: none; }
+    .sign-line #email::placeholder {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem; }
+  .sign-line img {
+    width: 2rem; }
+  .load-more {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 4rem 60rem 4rem; }
+    .load-more #load-more {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      padding: 1rem;
+      border: 1px solid;
+      background: white; }
+  footer {
+    background-color: #f0f0f0;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    footer .left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 0 0 20px; }
+    footer .right {
+      margin: 0 20px 0 0; }
+  footer a {
+    margin: 4px 8px; } }
+
+@media (min-width: 720px) {
+  .thinner-margin {
+    margin: 65px; }
+  .wider-margin {
+    margin: 100px; }
+  body {
+    font-size: 2rem;
+    letter-spacing: 1px; }
+    body h2 {
+      font-size: 3rem; }
+    body p {
+      font-size: 2rem; }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .logo {
+      height: 20px; }
+    header nav {
+      width: 75%; }
+  .main-picture {
+    display: flex; }
+    .main-picture img {
+      width: 100%; }
+  .cards-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px; }
+  .sign-up-sect {
+    height: 287px; }
+    .sign-up-sect h3 {
+      padding: 30px 0;
+      font-size: 3rem; }
+  .sign-line {
+    border-bottom: 3px solid;
+    border-radius: 3px;
+    margin: 30px 0; }
+    .sign-line #email::placeholder {
+      font-size: 2rem; }
+    .sign-line img {
+      width: 3rem; }
+  .load-more {
+    margin: 4rem 4rem 100rem 4rem; }
+    .load-more #load-more {
+      font-size: 4rem; }
+  footer {
+    background-color: #f0f0f0;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    footer .left {
+      display: inline; }
+    footer .container {
+      margin: 0 65px; }
+    footer a {
+      margin: auto 8px; } }
+
+@media (min-width: 1024px) {
+  header .logo {
+    height: 30px; }
+  header nav {
+    width: 60%; } }
